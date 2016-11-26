@@ -1,9 +1,13 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="utf-8">
+
+	<link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="image/favicon.ico" type="image/x-icon">
+
 	<title>PsyContact Colombia</title>
 
 	<style type="text/css">
@@ -68,21 +72,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Bienvenidos a PsyContact Colombia!</h1>
+	<center>
+		<h1> <b> Bienvenidos a PsyContact Colombia! </b> </h1>
+	</center>
 
 	<div id="body">
-		<p>The page you are looking at is being generated dynamically by PsyContact Colombia.</p>
-
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
-
-		<p>If you are exploring PsyContact Colombia for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+		<h2>Esperanos muy pronto...</h2>
+		<br>
+		<center> <img src="image/logo.png"> </center>
 	</div>
 
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+	<p class="footer">  
+		@<a href="http://www.blackcatcoffeecup.com" target="_blank">Webmaster</a>. 
+		<?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?>
+	</p>
 </div>
 
 </body>
